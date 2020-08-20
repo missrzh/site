@@ -1,0 +1,310 @@
+@font-face {
+    font-family: FunnyHurry; /* Гарнитура шрифта */
+    src: url(../fonts/FunnyHurry-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@media (max-width: 576px) {
+    /*--Navigation--*/
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        margin: -.5rem -1rem;
+        padding: .5rem 1rem;
+    }
+    /*--Main--*/
+    #home{
+        z-index: 1;
+        background: url("../img/main.png") no-repeat center center fixed;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-size: 70vh!important;
+    }
+    #home1{
+        background: url("../img/work1–vertical.jpg") no-repeat center center fixed!important;
+        display: table!important;
+        height: 100vh!important;
+        position: relative!important;
+        width: 100%!important;
+        background-size:cover!important;
+    }
+    #home2{
+        background: url("../img/work2–vertical.jpg") no-repeat center center fixed!important;
+        display: table!important;
+        height: 100vh!important;
+        position: relative!important;
+        width: 100%!important;
+        background-size: cover!important;
+    }
+    #home4{
+        background: url("../img/LSD.gif") no-repeat center center fixed;
+        display: table;
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+
+
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+/*--Navigation--*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.img-logo{
+    width: 75px;
+}
+.navbar-brand:hover, .img:focus, .img:active {
+    background: url("../img/close.jpg") no-repeat 0;
+    background-size: 75px;
+}
+.navbar-brand:hover img, .img2:focus img, .img2:active img  {
+    background: transparent;
+    visibility: hidden;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item{
+    font-family: FunnyHurry, serif;
+    font-size: 2.3em;
+    padding-left: 30px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("../img/open.jpg");
+    background-size: 75px;
+    width: 110px;
+    height:95px;
+    border: none;
+    padding: 0;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+.custom-toggler:active .navbar-toggler-icon:active {
+    background-image: url("../img/close.jpg");
+    background-size: 75px;
+    width: 110px;
+    height:95px;
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.main-img{
+    height: 80vh;
+    vertical-align: middle;
+}
+
+.navbar-default .navbar-nav li a{
+    color: black;
+}
+.navbar-default .navbar-nav li a:hover{
+    color: gray;
+}
+/*--Main--*/
+
+#home{
+    z-index: 1;
+    background: url("../img/main.png") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: 35vw;
+}
+#home1{
+    background: url("../img/work1.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+}
+#home2{
+    background: url("../img/work2.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#home3{
+    background: url("../img/work2.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#home4{
+    background: url("../img/LSD.gif") no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.work1{
+    height: 100vh;
+    width: auto;
+    background-color: transparent;
+}
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*--Contacts--*/
+
+.text{
+    font-family: FunnyHurry, serif;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.text a{
+    text-decoration: none;
+    color: black;
+
+}
+.text a:hover{
+    color: gray;
+}
+/*--Films-*/
+.videolink{
+    margin-left: auto;
+    margin-right: auto;
+}
+.videolink iframe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height:70vh;
+    padding: 5vh ;
+}
+.flex-column {
+    max-width : 260px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid {
+    margin: 5px;
+}
+.animateme{
+    width: 100vw;
+}
+/*--Shop-*/
+.my-col{
+    text-align: center;
+    position: relative;
+}
+
+.my-col img{
+    padding: 4rem;
+    width: 100%;
+    object-fit: cover;
+}
+.my-col span{
+    position: absolute;
+}
+.div-shop{
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(260, 260, 260,0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.div-shop:hover{
+    background-color: rgba(260, 260, 260,.5);
+    color: rgba(0, 0, 0, 1);
+}
+.i{
+    font-size: 1em !important;
+}
+.shop-img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*--About-*/
+.about{
+    position: relative;
+}
+.text-about{
+    font-family: "Funny Hurry", sans-serif;
+    font-size: 2rem;
+}
+.text-about span{
+    color: black;
+    background-color: #F8C420;
+
+}
+.text-about span:hover{
+    color: black;
+    background-color: #F8C420;
+    font-weight: bold;
+
+}
+
+#name{
+    font-weight: lighter;
+    font-size: 2.2em;
+    color: black;
+    background-color: #F8C420;
+}
+#name:hover{
+    font-size: 2.2em;
+    color: black;
+    background-color: #F8C420;
+    font-weight: bold;
+}
+.about2{
+    color: #F8C420!important;
+    background-color: black!important;
+    font-size: 2.3rem;
+}
+.link-about{
+    text-decoration: none;
+    color: black;
+}
+.link-about:hover{
+    color: black;
+    background-color: #F8C420;
+}
+
+
+
+
+
+

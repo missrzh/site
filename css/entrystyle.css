@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: Caveman; /* Гарнитура шрифта */
+    src: url(../fonts/FunnyHurry-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+    background-image: url("../img/background.png") ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#enterstyle{
+    font-size: 5em;
+    font-family: "Funny Hurry", serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fac420;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px black, 0 0 0em transparent; /* Параметры тени */
+}
+#enterstyle:hover{
+    text-shadow: none;
+    font-size: 5em; /* Размер надписи */
+    color:#fac420;
+
+}
